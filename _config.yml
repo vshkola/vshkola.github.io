@@ -23,7 +23,7 @@ description: Personal blog
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "Data Manager in LOVOO Gmbh M.Sc. in Computer Science, Distributed System Engineering, TU Dresden, Germany"
+  About Me: aboutme
   Resources:
     - Machine Learning by Andrew Ng: "http://vshkola.github.io/MachineLearningCoursera"
   CV:

@@ -27,7 +27,7 @@ navbar-links:
   Resources:
     - Machine Learning by Andrew Ng: "http://vshkola.github.io/MachineLearningCoursera"
   CV:
-    - Download CV: "/data/Shkola_Vladyslav_CV.pdf"
+    - Download CV: "https://vshkola.github.io/data/Shkola_Vladyslav_CV.pdf"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar

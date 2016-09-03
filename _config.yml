@@ -1,160 +1,77 @@
-# --- General options --- #
+# Welcome to Jekyll!
 
-# url is the full website URL
-# baseurl is the website's URL without the hostname
+# Website settings
+title: "Jalpc"
+description: "Jack's blog,use Jekyll and github pages."
+keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+baseurl: "/"
+url: "http://www.jack003.com"
+# url: "http://127.0.0.1:4000"
 
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://vshkola.github.io"
-baseurl: ""
+# blog img path
+img_path: 'http://www.jack003.com/static/img/blog'
 
-# If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
-title: Hello to Vladyslav Shkola main page
-
-# Short description of your site
-description: Personal blog
-
-# --- Navigation bar options --- #
-
-# List of links in the navigation bar
-navbar-links:
-  About Me: aboutme
-  Resources:
-    - Machine Learning by Andrew Ng: "http://vshkola.github.io/MachineLearningCoursera"
-  CV:
-    - Download CV: "https://vshkola.github.io/data/Shkola_Vladyslav_CV.pdf"
-
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
-
-# --- Footer options --- #
-
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
+# author
 author:
-  name: Vladyslav Shkola
-  email: "vladyslav.shkola@gmail.com"
-  github: vshkola    # eg. daattali
-  linkedin: vladyslavshkola  # eg. daattali
-  xing: Vladyslav_Shkola      # eg. daattali
+  first_name: 'Vladyslav'
+  last_name: 'Shkola'
+  email: 'vladyslav.shkola@gmail.com'
+  github_username: 'vshkola'
+  head_img: 'static/img/landing/Jack.jpg'
 
-# Select which links to show in the footer
-footer-links-active:
-  rss: false
-  email: true
-  github: true
-  linkedin: false
-  xing: false
+# landing page
+landing:
+  home: 'Home'
+  about: 'About'
+  career: 'Career'
+  skills: 'Skills'
+  projects: 'Project'
+  blog: 'Blog'
+  link: 'Link'
 
+# my projects
+project:
+  saplatform:
+    name: 'Machine Learning by Andrew Ng'
+    url: '/MachineLearningCoursera/'
+    img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/topics/ml/large-icon.png'
 
-# Select which share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  google: false
-  linkedin: true
-# --- Misc --- #
+# blog index
+index:
+  home: 'Home'
+  python: 'Python'
+  linux: 'Linux'
+  html: 'HTML'
+  database: 'Database'
+  mac: 'Mac'
+  life: 'Life'
 
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+# comment
+changyan:
+  # appid: cysfY7ULn
+  # conf: prod_861928934cecb7a18e15bedaed9dae29
+disqus:
+  name: jalpc
+  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
 
-# Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+# share
+bshare:
+  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
 
-# --- Don't need to touch anything below here (but you can if you want) --- #
+# baidu analytics
+ba:
+  uuid: 317acca9ef9255b934e46371e471431d
 
-# Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
-markdown: kramdown
+# google analytics
+ga:
+  id: UA-73784599-1
+
+# Build settings
+encoding: "utf-8"
+
+# other settings
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
-
+markdown: kramdown
 kramdown:
   input: GFM
-
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # all files
-    values:
-      layout: "page"
-      show-avatar: true
-
-# Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
-link-tags: false
-
-# Exclude these files from production site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
-  - Vagrantfile
-
-# prose.io config
-prose:
-  rooturl: '_posts'
-  media: 'img'
-  ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /css
-    - /img
-    - /js
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
-
-gems:
-  - jekyll-paginate
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+  syntax_highlighter: rouge

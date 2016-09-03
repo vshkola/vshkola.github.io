@@ -1,11 +1,11 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: "Jalpc"
-description: "Jack's blog,use Jekyll and github pages."
-keywords: "Jack,Jalpc,blog,Jekyll,github,gh-pages"
+title: "Vladyslav Shkola personal blog"
+description: "Vladyslav Shkola personal blog. Github pages"
+keywords: "Vladyslav,Shkola,blog,vshkola,github,gh-pages"
 baseurl: "/"
-url: "http://www.jack003.com"
+url: "vshkola.github.com"
 # url: "http://127.0.0.1:4000"
 
 # blog img path
@@ -17,7 +17,7 @@ author:
   last_name: 'Shkola'
   email: 'vladyslav.shkola@gmail.com'
   github_username: 'vshkola'
-  head_img: 'static/img/landing/Jack.jpg'
+  head_img: 'static/img/landing/vlad.jpg'
 
 # landing page
 landing:
@@ -53,18 +53,6 @@ changyan:
 disqus:
   name: jalpc
   public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
-
-# share
-bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
-
-# baidu analytics
-ba:
-  uuid: 317acca9ef9255b934e46371e471431d
-
-# google analytics
-ga:
-  id: UA-73784599-1
 
 # Build settings
 encoding: "utf-8"

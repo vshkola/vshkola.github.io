@@ -31,7 +31,7 @@ landing:
 
 # my projects
 project:
-  ML_course:
+  saplatform:
     name: 'Machine Learning by Andrew Ng'
     url: '/MachineLearningCoursera/'
     img: 'static/img/landing/ML_course.png'

@@ -35,7 +35,10 @@ project:
     name: 'Machine Learning by Andrew Ng'
     url: '/MachineLearningCoursera/'
     img: 'static/img/landing/ML_course.png'
-
+  jalpc:
+    name: 'Titanic - Kaggle challenge'
+    url: '/titanickagglechallenge'
+    img: 'statis/img/landing/kaggle.png'
 # blog index
 index:
   home: 'Home'

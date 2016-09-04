@@ -31,28 +31,15 @@ landing:
 
 # my projects
 project:
-  saplatform:
+  ML_course:
     name: 'Machine Learning by Andrew Ng'
     url: '/MachineLearningCoursera/'
-    img: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/topics/ml/large-icon.png'
+    img: 'static/img/landing/ML_course.png'
 
 # blog index
 index:
   home: 'Home'
-  python: 'Python'
-  linux: 'Linux'
-  html: 'HTML'
-  database: 'Database'
-  mac: 'Mac'
-  life: 'Life'
-
-# comment
-changyan:
-  # appid: cysfY7ULn
-  # conf: prod_861928934cecb7a18e15bedaed9dae29
-disqus:
-  name: jalpc
-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
+  links: 'Links'
 
 # Build settings
 encoding: "utf-8"

@@ -32,13 +32,17 @@
     "nextcode_date": "May. 2016",
     "nextcode_job": "Data Manager",
     "ucloud": "GlobalLogic",
-    "ucloud_des": "Java developer for leading provider of innovative broadband solutions that deliver video, voice and data to communications providers around the world. ",
+    "ucloud_des": "Java developer for leading provider of innovative broadband solutions that deliver video, voice and data to communications providers around the world.",
     "ucloud_date": "Dec. 2015",
     "ucloud_job": "Junior Java Deveoper",
     "college": "Graduation",
     "college_des": "July 2016 - Gradution from NTUU KPI, Information Networks and Systems",
     "college_date": "Jul. 2016",
-    "college_job": "Student"
+    "college_job": "Student",
+    "college2": "Master degree",
+    "college_des2": "Oct 2016 - Start Master degree in Computer Science TU Dresden, Germany",
+    "college_date2": "Oct. 2016",
+    "college_job2": "Student"
   },
   "blog":{
     "my_blog": "My Blog"
